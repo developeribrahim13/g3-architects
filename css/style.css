@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 50px 240px 0 228px;
+    background-color: #ff8f0e17;
+}
+
+/* navbar design start */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* navbar design finished */
