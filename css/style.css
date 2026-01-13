@@ -272,3 +272,31 @@ main #some-facts .some-facts-card-container .card p{
     color: #727272;
 }
 /* Some facts section end */
+
+/* Sponspors section start */
+
+main #sponspors .sponspors-txt-div{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+main #sponspors .sponspors-txt-div h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+main #sponspors .sponspors-txt-div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+main #sponspors .sponspors-img-div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    filter: grayscale(100%);
+}
+/* Sponspors section end */
