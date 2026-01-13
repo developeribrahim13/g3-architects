@@ -296,7 +296,26 @@ main #sponspors .sponspors-txt-div p{
 
 main #sponspors .sponspors-img-div{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    /* padding-left: 100px; */
+    grid-template-columns: repeat(5,343px);
     filter: grayscale(100%);
 }
 /* Sponspors section end */
+
+/* footer section start */
+footer{
+    padding: 130px 240px 216px;
+}
+
+footer div{
+    text-align: center;
+    padding: 39px 410px;
+    background-color: #ff8f0e17;
+}
+
+footer div p{
+    font-size: 20px;   
+    color: #424242;
+}
+
+/* footer section end */
