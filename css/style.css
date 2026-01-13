@@ -93,3 +93,57 @@ header #banner .bnr-img{
 }
 
 /* banner section design finished */
+
+/* features section design start */
+
+main #features{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+
+main #features .features-img-div{
+    display: grid;
+    grid-template-columns: repeat(2,342px);
+    grid-template-rows: repeat(2,342px);
+    gap: 24px;
+}
+
+main #features .features-img-div{
+    border-radius: 8px;
+}
+
+main #features .features-txt-div{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #features .features-txt-div h2{
+    font-size: 45px;
+    color: #727272;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+main #features .features-txt-div h2 .spn-1{
+    color: #131313;
+    font-weight: bold;
+}
+
+main #features .features-txt-div h2 .spn-2{
+    color: #ff900e;
+    font-weight: bold;
+}
+
+main #features .features-txt-div p{
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* features section complete */
