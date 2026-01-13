@@ -163,7 +163,6 @@ align-items: center;
 gap: 146px;
 margin-top: 130px;
 width: 100%;
-/* border: 1px solid red; */
 }
 
 main #love-and-enjoy .love-and-enjoy-txt-div .nrml-txt h1{
@@ -226,3 +225,50 @@ main #love-and-enjoy .love-and-enjoy-img-div button span{
     line-height: 40px;
     font-weight: 500;
 }
+
+/* love & enjoy section end */
+
+/* Some facts section start */
+main #some-facts .some-facts-txt-div h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 24px;
+    margin-top: 130px;
+}
+
+main #some-facts .some-facts-txt-div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+main #some-facts .some-facts-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    padding-left: 45px;
+}
+
+main #some-facts .some-facts-card-container .card{
+    text-align: center;
+    border: 1px solid #ff8f0e8e;
+    border-radius: 8px;
+    padding: 45px 36px 60px;
+    width: 242px;
+}
+
+main #some-facts .some-facts-card-container .card h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin: 5px 0;
+}
+
+main #some-facts .some-facts-card-container .card p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+/* Some facts section end */
