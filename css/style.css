@@ -27,6 +27,12 @@ header{
     padding: 50px 240px 45px 228px;
     background-color: #ff8f0e17;
 }
+main{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 240px 0 228px;
+}
+
 
 /* navbar design start */
 
@@ -111,7 +117,7 @@ main #features .features-img-div{
     gap: 24px;
 }
 
-main #features .features-img-div{
+main #features .features-img-div img{
     border-radius: 8px;
 }
 
@@ -147,3 +153,76 @@ main #features .features-txt-div p{
 }
 
 /* features section complete */
+
+/* love & enjoy section start */
+
+main #love-and-enjoy{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 146px;
+margin-top: 130px;
+width: 100%;
+/* border: 1px solid red; */
+}
+
+main #love-and-enjoy .love-and-enjoy-txt-div .nrml-txt h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+    border-left: 8px solid #ff900e;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+
+main #love-and-enjoy .love-and-enjoy-txt-div .nrml-txt p{
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+main #love-and-enjoy .love-and-enjoy-txt-div .card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; 
+}
+
+main #love-and-enjoy .love-and-enjoy-txt-div .card-container .card{
+    border-radius: 8px;
+    box-shadow:  0px 0px 15px #7272722a;
+    padding: 30px 42px 30px 33px;
+}
+
+main #love-and-enjoy .love-and-enjoy-txt-div .card-container .card h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+main #love-and-enjoy .love-and-enjoy-txt-div .card-container .card p{
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+
+main #love-and-enjoy .love-and-enjoy-img-div button{
+    font-size: 65px;
+    line-height: 70px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff900e;
+    margin: -150px 0 0 -100px;
+    border: none;
+    border-radius: 8px;
+    padding: 45px 38px 42px;
+}
+
+main #love-and-enjoy .love-and-enjoy-img-div button span{
+    display: block;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+}
